@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1D3557;
+}
+.ventana{
+    background-color: #457B9D;
+    color: #F1FAEE;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.SIAF{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #457B9D ;
+    color: #F1FAEE;
+    padding: 10px 20px;
+}
+aside{
+    width: 220px;
+    background-color: #1D3557;
+    color: #F1FAEE;
+    padding: 10px;
+}
+aside button{
+    width: 100%;
+    margin-bottom: 8px;
+    background-color: #A8DADC;
+    cursor: pointer;
+}
+main{
+    flex: 1;
+    padding: 20px;
+}
+.left1{
+    color: white;
+    width: 180px;
+    margin: 5px 0;
+
+}
+.center{
+    color: white;
+    flex: 1;
+}
+.layout{
+    display: flex;
+    height: calc(100vh - 140px);
+}
+.container{
+    display: flex;
+    gap: 40px;
+}
+.moneda img{
+    width: 800px;
+}
+.left{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.left img{
+    width: 100px;
+}
